@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+#header {
+  padding: 20px 0;
+  box-shadow: 0 3px 13px grey;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-end {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.header-end button {
+  width: 78px;
+  height: 40px;
+  border: 1px solid rgba(224, 224, 224, 1);
+  background: transparent;
+  cursor: pointer;
+  color: rgba(29, 29, 29, 1);
+  font-size: 13px;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.hero input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 1);
+  margin: 50px 0;
+  font-size: 18px;
+}
+
+.hero input :: ::placeholder {
+  color: rgba(98, 98, 98, 1);
+  font-size: 16px;
+}
+
+.meal h4 {
+  color: rgba(29, 29, 29, 1);
+  font-size: 16px;
+  padding-top: 15px;
+}
+.meal p {
+  color: rgba(98, 98, 98, 1);
+  font-size: 14xp4;
+  padding: 8px 0;
+}
+
+.meal h6 {
+  font-size: 13px;
+  color: rgba(29, 29, 29, 1);
+}
+
+.hero-title {
+  color: rgba(29, 29, 29, 1);
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.main-meal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#footer {
+  background: rgba(38, 38, 38, 1);
+  height: 582px;
+  padding: 40px 0;
+  margin-top: 100px;
+}
+
+.footer img {
+  margin: 22px 0;
+}
+.info-left select {
+  width: 227px;
+  height: 40px;
+  background: rgba(59, 59, 59, 1);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 13px;
+  padding: left 22px;
+}
+
+.info-left h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 0;
+}
+
+.info-left span {
+  color: rgba(73, 161, 68, 1);
+}
+
+.footer-icos {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons ion-icon {
+  padding-right: 10px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+hr {
+  margin: 40px 0;
+}
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.footer-info p {
+  font-size: 13px;
+  color: white;
+  padding-bottom: 20px;
+}
+.social {
+  width: 120px;
+  height: 40px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
+.social p {
+  font-size: 10px;
+}
+
+.social ion-icon {
+  font-size: 25px;
+  padding: 0 6px;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-end {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.footer-end button {
+  width: 80px;
+  height: 80px;
+  background: rgba(89, 189, 90, 1);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+.glob {
+  position: relative;
+}
+
+.glob ion-icon {
+  position: absolute;
+  color: white;
+  top: 12px;
+  left: 5px;
+}
+
+select {
+  padding: 5px 25px;
+}
